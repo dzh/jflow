@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodes>
+	<node id="HardwareAnalysis" name="硬件分析"
+		clazz="jflow.example.analysis.lack.HardwareAnalysis" scope="global">
+		<properties>
+			<property key="key1" value="val1" />
+		</properties>
+	</node>
+	<node id="MonitorAnalysis" name="监控分析"
+		clazz="jflow.example.analysis.lack.MonitorAnalysis" scope="flow">
+		<properties>
+			<property key="key2" value="val2" />
+		</properties>
+	</node>
+	<node id="NetAnalysis" name="网络分析"
+		clazz="jflow.example.analysis.lack.NetAnalysis" scope="chain">
+		<properties>
+			<property key="key3" value="val3" />
+		</properties>
+	</node>
+</nodes>

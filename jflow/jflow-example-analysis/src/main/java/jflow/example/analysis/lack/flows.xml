@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flows>
+	<flow id="StationLackFlow">
+		<ref_node id="HardwareAnalysis">
+			<properties>
+				<property key="key1" value="val1" />
+			</properties>
+		</ref_node>
+		<ref_node id="MonitorAnalysis">
+			<properties>
+				<property key="key1" value="key1" />
+			</properties>
+		</ref_node>
+		<ref_node id="NetAnalysis">
+			<properties>
+				<property key="key1" value="key1" />
+			</properties>
+		</ref_node>
+	</flow>
+</flows>

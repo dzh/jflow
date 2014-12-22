@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flows>
+	<flow id="" clazz="" start="">
+		<ref_node id="">
+			<properties>
+				<property key="" value="" />
+			</properties>
+		</ref_node>
+	</flow>
+</flows>
